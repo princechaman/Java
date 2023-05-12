@@ -1,25 +1,16 @@
 import java.util.Scanner;
-class  Swapp
+class Demo
 {
-    public static void main (String arr[])
-	{
-		int a,b;
-        Scanner in = new Scanner(System.in);	
-	    System.out.print("Enter first number  :");
-        a = in.nextInt();
+    public static void main(String arr[])
+    {
+        int num,i;
+		Scanner in= new Scanner(System.in);
+		System.out.print("Enter a number :");
+		num = in.nextInt();
 		
-		System.out.print("Enter second number  :");
-        b = in.nextInt();
-
-        System.out.print("Before Swapping ");
-        System.out.print("a ="+a+" b ="+b);
-        
-		a= a+b;
-		b=a-b;
-		a=a-b;
-        System.out.print("After Swapping ");
-        System.out.print("a ="+a+" b ="+b);
-	}
-} 
-    
-
+		for(i=1;i<=10;i++){
+		
+			    System.out.println(num+ "*"+ i + "="+ num*i);
+		}  
+   }
+}  
